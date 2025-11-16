@@ -65,7 +65,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
+  height: 170px;
   background-color: #171717;
   padding: 0px 50px 0px 25px;
   font-family: sarpanch;
@@ -97,10 +97,20 @@ footer {
 
 /* MAIN CONTENT */
 
+.pic {
+  width: 100vw;
+  height: auto;
+}
+
 h1 {
   font-family: orbitron;
   font-weight: 900;
-  font-size: 4rem
+  font-size: 4rem;
+}
+
+.content {
+ display: grid;
+ grid-template: repeat(3,65vw) / repeat(2, 700px);
 }
 
 h2 {
