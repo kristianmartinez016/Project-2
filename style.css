@@ -59,7 +59,7 @@ html {
 }
 
 
-/* HEADER AND FOOTER */
+/* HEADER */
 
 header {
   display: flex;
@@ -84,16 +84,6 @@ a:hover {
   text-decoration: underline;
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 350px;
-  background-color: #171717;
-  color: #e4fff1;
-  
-}
-
 
 /* MAIN CONTENT */
 
@@ -106,11 +96,17 @@ h1 {
   font-family: orbitron;
   font-weight: 900;
   font-size: 4rem;
+  text-align: center;
+}
+
+main {
+  padding: 
 }
 
 .content {
  display: grid;
- grid-template: repeat(3,65vw) / repeat(2, 700px);
+ grid-template: repeat(3, 30%) / repeat(2, 50%);
+ gap: 4rem 0
 }
 
 h2 {
@@ -126,4 +122,48 @@ h3 {
 
 p {
   padding-top: 15px
+}
+
+.metroid-images {
+  background-image: url("https://metroiddatabase.com/old_site/mp/art/mp_parasitequeen.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 200px 0 0 75px;
+}
+
+.zelda-images {
+  background-image: url("https://cdn.wikimg.net/en/zeldawiki/images/3/31/Wind_Waker_Scene.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 200px 75px 0;
+}
+
+.mario-images {
+  background-image: url("https://mario.wiki.gallery/images/3/38/SMS_group_art.jpg");
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 200px 0 0 75px;
+}
+
+.evil-images {
+  background-image: url("https://www.creativeuncut.com/gallery-08/art/re0-misc01.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 200px 75px 0;
+}
+
+.metroid-text, .zelda-text, .mario-text, .evil-text {
+  padding: 2rem 4rem
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  background-color: #171717;
+  color: #e4fff1;
 }
