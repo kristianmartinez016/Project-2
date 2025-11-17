@@ -87,9 +87,12 @@ a:hover {
 
 /* MAIN CONTENT */
 
-.pic {
-  width: 100vw;
-  height: auto;
+.container {
+  height: 70vh;
+  width: auto;
+
+  background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/56589f84-7852-4055-9c7a-82243a56d1ad/DSC07068.jpg");
+  background-position: center;
 }
 
 h1 {
