@@ -88,11 +88,11 @@ a:hover {
 /* MAIN CONTENT */
 
 .container {
-  height: 70vh;
+  height: 100vh;
   width: auto;
-
-  background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/56589f84-7852-4055-9c7a-82243a56d1ad/DSC07068.jpg");
+  background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/76c551f6-41df-4d4b-8605-2aaf4f0a4873/DSC07073.jpg");
   background-position: center;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -102,15 +102,11 @@ h1 {
   text-align: center;
 }
 
-main {
-  padding: 
-}
-
 .content {
  display: grid;
  grid-template: repeat(4, 30%) / repeat(2, 50%);
  gap: 4rem 0;
- padding-bottom:900px;
+ padding-bottom: 900px;
 }
 
 h2 {
@@ -129,10 +125,11 @@ p {
 }
 
 .metroid-images {
-  background-image: url("https://metroiddatabase.com/old_site/mp/art/mp_parasitequeen.jpg");
+  background-image: url("https://metroiddatabase.com/old_site/mp/art/mp_savestation.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 200px 0 0 75px;
+  box-shadow: 2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .zelda-images {
@@ -140,13 +137,15 @@ p {
   background-size: cover;
   background-position: center;
   border-radius: 0px 200px 75px 0;
+  box-shadow: -2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .mario-images {
-  background-image: url("https://mario.wiki.gallery/images/3/38/SMS_group_art.jpg");
+  background-image: url("https://mario.wiki.gallery/images/7/7d/GroupArtSunshine.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   border-radius: 200px 0 0 75px;
+  box-shadow: 2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .evil-images {
@@ -154,10 +153,11 @@ p {
   background-size: cover;
   background-position: center;
   border-radius: 0px 200px 75px 0;
+  box-shadow: -2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .metroid-text, .zelda-text, .mario-text, .evil-text {
-  padding: 2rem 4rem
+  padding: 2rem 4rem;
 }
 
 
@@ -166,6 +166,8 @@ p {
 footer {
   display: flex;
   justify-content: space-around;
+  position: relative;
+  margin-top: 1rem;
   align-items: center;
   padding: 0px 50px 0px 25px;
   height: 350px;
