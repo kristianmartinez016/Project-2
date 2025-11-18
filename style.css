@@ -199,3 +199,85 @@ footer a:hover {
   flex-direction: column;
   text-align: right;
 }
+
+
+/* PHONE SCREEN */
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+/* HEADER */
+  
+/* MAIN CONTENT */
+  
+  .container {
+    height: 30vh;
+    width: auto;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/76c551f6-41df-4d4b-8605-2aaf4f0a4873/DSC07073.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .winter {
+    text-align: center;
+    padding-top: 10rem;
+    font-family: orbitron;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #e4fff1;
+    margin-top: 0rem;
+  }
+  
+  
+  .content {
+    display: grid;
+    grid-template: repeat(8, 40rem) / repeat(1, 100%);
+  }
+  
+  .content {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .metroid-images, .zelda-images, .mario-images, .evil-images {
+    border-radius: 0 0 0 0;
+    box-shadow:0 0 0 0 rgba(0, 0, 0, 0.25);
+    order: 
+  }
+
+
+  .mario-images {
+    background-position: center;
+  }
+
+  .metroid-text, .zelda-text, .mario-text, .evil-text {
+    text-align: left;
+  }
+
+/* FOOTER */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 0 rem;
+    height: 300px;
+    background-color: #171717;
+    color: #e4fff1;
+  }
+
+  .sources {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
