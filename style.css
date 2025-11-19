@@ -73,10 +73,6 @@ header {
   font-size: 1.15rem;
 }
 
-.gamecube-logo {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/GC_Logo.svg/2048px-GC_Logo.svg.png");
-}
-
 a {
   color: #e4fff1;
   text-decoration: none;
@@ -95,7 +91,6 @@ a:hover {
   width: auto;
   background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/76c551f6-41df-4d4b-8605-2aaf4f0a4873/DSC07073.jpg");
   background-position: center;
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .gamecube-logo {
@@ -249,22 +244,51 @@ footer a:hover {
     padding-bottom: 0rem;
   }
 
-  .metroid-images, .zelda-images, .mario-images, .evil-images {
+  /* .metroid-images, .zelda-images, .mario-images, .evil-images {
     border-radius: 0 0 0 0;
-    box-shadow:0 0 0 0 rgba(0, 0, 0, 0.25);
-    order: 
+    box-shadow:0 0 0 0 rgba(0, 0, 0, 0.25); */
   }
 
   .metroid-images {
-    order: -1;
+    order: 1;
+    border-radius: 100px 0 0 37.5px;
+    box-shadow: 2rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5);
   }
+
+  .metroid-text {
+    order: 2;
+  }
+
+  .zelda-images {
+    order: 3;
+    border-radius: 0px 100px 37.5px 0;
+    box-shadow: -2rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .zelda-text {
+    order: 4;
+  }
+
   .mario-images {
     background-position: center;
-    order: ;
+    order: 5;
+    border-radius: 100px 0 0 37.5px;
+    box-shadow: 2rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .mario-text {
+    order: 6;
   }
 
   .evil-images {
     background-position: center;
+    order: 7;
+    border-radius: 0px 100px 37.5px 0;
+    box-shadow: -2rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .evil-text {
+    order: 8;
   }
 
   .metroid-text, .zelda-text, .mario-text, .evil-text {
