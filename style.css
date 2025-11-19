@@ -138,12 +138,17 @@ p {
   padding-top: 15px
 }
 
+.metroid-text {
+  order: 1;
+}
+
 .metroid-images {
   background-image: url("https://metroiddatabase.com/old_site/mp/art/mp_savestation.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 200px 0 0 75px;
   box-shadow: 2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
+  order: 2;
 }
 
 .zelda-images {
@@ -152,6 +157,15 @@ p {
   background-position: center;
   border-radius: 0px 200px 75px 0;
   box-shadow: -2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
+  order: 3;
+}
+
+.zelda-text {
+  order: 4;
+}
+
+.mario-text {
+  order: 5;
 }
 
 .mario-images {
@@ -160,6 +174,7 @@ p {
   background-position: 0 -14rem;
   border-radius: 200px 0 0 75px;
   box-shadow: 2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
+  order: 6;
 }
 
 .evil-images {
@@ -168,6 +183,11 @@ p {
   background-position: center;
   border-radius: 0px 200px 75px 0;
   box-shadow: -2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
+  order: 7;
+}
+
+.evil-text {
+  order: 8;
 }
 
 .metroid-text, .zelda-text, .mario-text, .evil-text {
