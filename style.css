@@ -245,7 +245,7 @@ footer a:hover {
 /* MAIN CONTENT */
   
   .container {
-    height: 90vh;
+    height: 100vh;
     width: auto;
     background-image: linear-gradient(rgb(23 23 23 / 95%), rgb(23 23 23 / 50%)),url("https://i.redd.it/kbhalvngef211.jpg");
     background-repeat: ;
@@ -254,7 +254,7 @@ footer a:hover {
   }
 
   .title {
-    padding-top: 22rem;
+    padding-top: 18rem;
     font-size: 2.5rem;
   }
 
