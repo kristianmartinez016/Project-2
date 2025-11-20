@@ -177,7 +177,7 @@ p {
   background-image: url("https://www.creativeuncut.com/gallery-08/art/re0-misc01.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 0px 200px 75px 0;
+  border-radius: 0px 250px 75px 0;
   box-shadow: -2rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -219,7 +219,7 @@ footer a:hover {
 
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     font-family: Tahoma;
   }
@@ -235,7 +235,7 @@ footer a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .gamecube-logo {
@@ -264,7 +264,7 @@ footer a:hover {
   
   .content {
     display: grid;
-    grid-template: repeat(8, 45rem) / repeat(1, 100%);
+    grid-template: repeat(8, 44em) / repeat(1, 100%);
     padding-bottom: 0rem;
   }
 
@@ -277,10 +277,57 @@ footer a:hover {
     text-align: left;
   }
 
+  h2 {
+    font-size: 2rem
+  }
+
+  .metroid-images {
+    order: 1;
+    background-size: 150%;
+    border-radius: 200px 0 0 200px;
+    box-shadow: 2rem 1rem 2rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .metroid-text {
+    order: 2;
+  }
+
+  .zelda-images {
+    order: 3;
+    border-radius: 0px 200px 200px 0;
+    box-shadow: -2rem 1rem 2rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .zelda-text {
+    order: 4;
+  }
+
+  .mario-images {
+    order: 5;
+    background-position: 0 -7rem;
+    background-size: 110%;
+    border-radius: 200px 0 0 200px;
+    box-shadow: 2rem 1rem 2rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .mario-text {
+    order: 6;
+  }
+
+  .evil-images {
+    order: 7;
+    border-radius: 0px 200px 200px 0;
+    box-shadow: -2rem 1rem 2rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .evil-text {
+    order: 8;
+  }
+  
 /* FOOTER */
 
   footer {
-    font-size: 0.85rem;
+    font-size: 0.73rem;
     padding: rem 3rem ;
     height: 21rem;
   }
