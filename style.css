@@ -7,7 +7,7 @@ html {
   color: #222;
   background-color: #e4fff1;
   line-height: 1.4;
-  font-size: 14pt;
+  font-size: 15pt;
   font-family: Tahoma;
 }
 
@@ -95,13 +95,14 @@ a:hover {
 .container {
   height: 100vh;
   width: auto;
-  background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/76c551f6-41df-4d4b-8605-2aaf4f0a4873/DSC07073.jpg");
+  background-image: linear-gradient(rgb(13 13 13 / 95%), rgb(13 13 13 / 75%)),url("https://i.redd.it/kbhalvngef211.jpg");
+  background-size: cover;
   background-position: center;
 }
 
-.winter {
+.title {
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 9rem;
   font-family: orbitron;
   font-weight: 900;
   font-size: 3rem;
@@ -110,12 +111,20 @@ a:hover {
   margin-top: 0rem;
 }
 
+.nintendogamecube {
+  line-height: 5.5rem;
+}
+
+.winter {
+  margin-top: -3rem;
+}
+
 .whats-hot {
   font-family: orbitron;
   font-weight: 900;
   font-size: 4rem;
   text-align: center;
-  margin-top: 100px;
+  margin: 6rem 0;
 }
 
 .content {
@@ -210,7 +219,7 @@ footer a:hover {
 
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     font-family: Tahoma;
   }
@@ -236,28 +245,26 @@ footer a:hover {
 /* MAIN CONTENT */
   
   .container {
-    height: 30vh;
+    height: 90vh;
     width: auto;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/76c551f6-41df-4d4b-8605-2aaf4f0a4873/DSC07073.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgb(23 23 23 / 95%), rgb(23 23 23 / 50%)),url("https://i.redd.it/kbhalvngef211.jpg");
+    background-repeat: ;
+    background-size: 150%;
+    background-color: black;
   }
 
-  .winter {
-    text-align: center;
-    padding-top: 10rem;
-    font-family: orbitron;
-    font-weight: 900;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #e4fff1;
-    margin-top: 0rem;
+  .title {
+    padding-top: 22rem;
+    font-size: 2.5rem;
   }
-  
+
+  .nintendogamecube {
+    line-height: 4.5rem
+  }
   
   .content {
     display: grid;
-    grid-template: repeat(8, 40rem) / repeat(1, 100%);
+    grid-template: repeat(8, 45rem) / repeat(1, 100%);
     padding-bottom: 0rem;
   }
 
@@ -273,9 +280,8 @@ footer a:hover {
 /* FOOTER */
 
   footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 3rem ;
+    font-size: 0.85rem;
+    padding: rem 3rem ;
     height: 21rem;
   }
 
@@ -284,6 +290,6 @@ footer a:hover {
   }
   
   .sources {
-    text-align: left;
-    width: 125%;
+    text-align: right;
+    width: 100%;
   }
