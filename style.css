@@ -65,12 +65,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 190px;
+  height: 10rem;
+  width: auto;
   background-color: #171717;
   padding: 0 3rem;
   font-family: sarpanch;
   font-weight: 600;
   font-size: 1.15rem;
+}
+
+.gamecube-logo {
+  height: 8rem;
+  width: auto;
 }
 
 a {
@@ -91,10 +97,6 @@ a:hover {
   width: auto;
   background-image: url("https://images.squarespace-cdn.com/content/v1/63689069e0990a0f0cd0a667/76c551f6-41df-4d4b-8605-2aaf4f0a4873/DSC07073.jpg");
   background-position: center;
-}
-
-.gamecube-logo {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/GC_Logo.svg/2048px-GC_Logo.svg.png");
 }
 
 .winter {
@@ -235,6 +237,21 @@ footer a:hover {
 
 
 /* HEADER */
+
+  header {
+    padding: 0 2rem;
+  }
+  
+  .directory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .gamecube-logo {
+    height: 6rem;
+  }
   
 /* MAIN CONTENT */
   
